@@ -19,7 +19,7 @@
  }
  h1{
      color: white;
-     font-size: 60px;
+     font-size: 90px;
      padding: 0;
      padding-top: 50px;
      margin: 0 auto;
@@ -34,21 +34,30 @@
      height: 300px;
      background-image: url(../img/1.png);
      opacity: 0.9;
-     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+     box-shadow: 0 13px 17px rgba(0, 0, 0, 0.5)
  }
  #block2{
     width: 300px;
     height: 300px;
     background-image: url(../img/2.png);
     opacity: 0.9;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 13px 17px rgba(0, 0, 0, 0.5)
 }
  #block3{
     width: 300px;
     height: 300px;
     background-image: url(../img/3.png);
     opacity: 0.9;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 13px 17px rgba(0, 0, 0, 0.5)
+}
+#block1:hover{
+    opacity: 1;
+}
+#block2:hover{
+    opacity: 1;
+}
+#block3:hover{
+    opacity: 1;
 }
  .data {
     width: 50px;
@@ -79,14 +88,39 @@
     padding: 13px;
     font-size: 18px;
     padding-top: 170px;
+    width: 280px;
+    text-align: left;
  }
- #block1:hover{
-     background-color: black;
-     opacity: 1;
-     width: 310px;
-     
- }
- .content:hover{
+ .content:hover {
     transform: scale(1.1);
     transition: all .4s ease-in;
+    background: rgba(0,0,0,.5);
  }
+ 
+ .btn{
+     background-color: brown;
+     border-radius: 10px;
+     padding: 15px;
+     margin-top: 50px;
+     color:white;
+     font-size: 20px;
+     cursor: pointer;
+     border: 1px solid white;
+     width: 200px;
+ }
+ .btn:hover{
+    padding: 15px;
+    width: 220px;
+    font-size: 22px;
+    background-color:#d82525;
+ }
+ .gif {
+  
+    display:none;
+    margin-top: 20px;
+    
+  }
+  .show-gif {
+    display: block;
+  
+  }
